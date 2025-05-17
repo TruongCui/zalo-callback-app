@@ -3,8 +3,8 @@ import requests
 
 app = Flask(__name__)
 
-APP_ID = 'your_app_id'
-APP_SECRET = 'your_app_secret'
+APP_ID = '4596469419363744049'
+APP_SECRET = 'WRI4rG57RK5HIDJrxXRX'
 
 @app.route('/zalo/callback')
 def zalo_callback():
